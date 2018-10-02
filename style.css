@@ -1,0 +1,202 @@
+body
+
+{
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #222;
+}
+
+#header
+
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	
+}
+
+.gmail, .Images
+
+{
+	margin-right: 10px;
+	margin-top : 20px;
+
+}
+
+.carré, .connexion
+
+{
+	margin-right : 10px;
+	margin-top: 13px;
+}
+
+.car
+
+{
+	height: 27px;
+	width: 30px;
+}
+
+.connexion
+
+{
+	display: inline-block;
+	line-height: 28px;
+	border: 1px solid #4285f4;
+	background-color: #4285f4;
+	font-weight: bold;
+	padding: 0 12px;
+	font-size: 13px;
+	border-radius: 2px;
+	color: #fff;
+
+}
+
+.endroit_logo
+
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 170px;
+	width: 272px;
+}
+
+img
+
+{
+	height: 92px;
+	width: 272px;
+}
+
+.endroit_searchbar
+{
+	width: 100px;
+	height: auto;
+	margin-left: 450px;
+	margin-right: 450px;
+	margin-top: 20px;
+}
+
+#boutons
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+#footer
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 437px;
+	line-height: 40px;
+	width: 100%;
+	margin-left: -5;
+}
+
+
+#sous-footer1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	font-size: 15px;
+	border: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	line-height: 40px;
+	padding-left: 27px;
+	align-items: flex-end;
+	width: 100%;
+	color: #666;
+
+
+}
+
+#sous-footer2
+
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	font-size: 15px;
+	border: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	line-height: 40px;
+	padding-left: 27px;
+	align-items: flex-end;	
+	width: 100%;
+
+
+}
+
+#PEA
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-right: 750px;
+
+}
+
+#ICCP
+
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.pub, .entreprise, .apropos, .infoconso, .confidentialité, .conditions, .paramètres
+
+{
+	margin-right : 20px;
+	color: #666;
+
+}
+
+a:link:not(.connexion)
+
+{
+	color: #666;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+a:active:not(.connexion)
+
+{
+	color: #666;
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+a:visited:not(.connexion)
+
+{
+	color: #666;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+strong
+
+{
+	color: #fff;
+}
+
+
+ul
+
+{
+
+position: fixed;
+list-style-type: none;
+padding: 0;
+overflow: hidden;
+width: 100%;
+border: 0px;
+margin: -10px;
+
+}
